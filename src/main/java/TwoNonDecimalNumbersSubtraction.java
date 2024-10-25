@@ -3,7 +3,7 @@ package org.anudip.javaapp03.operation;
 
 public class TwoNonDecimalNumbersSubtraction {
 
-        // this methord is to multiply 2 integer values
+        // this methord is to subtract 2 integer values
 
     public int subtract(int num1, int num2) {
         // Check for negative numbers
@@ -18,7 +18,7 @@ public class TwoNonDecimalNumbersSubtraction {
             result = -2;
         }
 
-        // Perform multiplication and return the result
+        // Perform subtraction and return the result
         else {
         result = num1 - num2;
 
